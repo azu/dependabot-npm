@@ -1,0 +1,24 @@
+{
+  "name": "monorepo-overrides-pnpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "azu",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "3.7.1",
+    "react": "18.0.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "jquery": "3.7.1",
+      "react": "$react",
+      "app-c>react": "18.0.0"
+    }
+  },
+  "packageManager": "pnpm@9.0.2"
+}
