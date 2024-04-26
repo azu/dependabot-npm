@@ -6,7 +6,7 @@ settings:
 
 overrides:
   jquery: 3.7.1
-  react: 18.2.0
+  react: 18.3.0
   app-c>react: 18.0.0
 
 importers:
@@ -17,8 +17,8 @@ importers:
         specifier: 3.7.1
         version: 3.7.1
       react:
-        specifier: 18.2.0
-        version: 18.2.0
+        specifier: 18.3.0
+        version: 18.3.0
 
   packages/app-a:
     dependencies:
@@ -26,14 +26,14 @@ importers:
         specifier: 3.7.1
         version: 3.7.1
       react:
-        specifier: 18.2.0
-        version: 18.2.0
+        specifier: 18.3.0
+        version: 18.3.0
 
   packages/app-b:
     dependencies:
       react:
-        specifier: 18.2.0
-        version: 18.2.0
+        specifier: 18.3.0
+        version: 18.3.0
 
   packages/app-c:
     dependencies:
@@ -65,8 +65,8 @@ packages:
       loose-envify: 1.4.0
     dev: false
 
-  /react@18.2.0:
-    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+  /react@18.3.0:
+    resolution: {integrity: sha512-RPutkJftSAldDibyrjuku7q11d3oy6wKOyPe5K1HA/HwwrXcEqBdHsLypkC2FFYjP7bPUa6gbzSBhw4sY2JcDg==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
